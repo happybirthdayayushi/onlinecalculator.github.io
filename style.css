@@ -20,7 +20,7 @@ html {
 
 /* Using box shadows to create 3D effects */
 #calculator {
-	width: 325px;
+	width: 90%;
 	height: auto;
 	
 	margin: 100px auto;
@@ -39,24 +39,19 @@ html {
 
 /* Inset shadow on the screen to create indent */
 .top .screen {
-	height: 40px;
-	width: 212px;
-	
-	float: right;
-	
-	padding: 0 10px;
-	
-	background: rgba(0, 0, 0, 0.2);
-	border-radius: 3px;
-	box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
-	
-	/* Typography */
-	font-size: 17px;
-	line-height: 40px;
-	color: white;
-	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
-	text-align: right;
-	letter-spacing: 1px;
+    height: 90px;
+    width: 480px;
+    float: right;
+    padding: 20px 10px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+    font-size: 63px;
+    line-height: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-align: right;
+    letter-spacing: 1px;
 }
 
 /* Clear floats */
@@ -70,9 +65,12 @@ html {
 	
 	cursor: pointer;
 	
-	width: 66px;
-	height: 36px;
+/*	width: 66px;
+	height: 36px;*/
 	
+	width: 160px;
+    height: 90px;
+
 	background: white;
 	border-radius: 3px;
 	box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
@@ -88,6 +86,9 @@ html {
 	
 	/* Smoothing out hover and active states using css3 transitions */
 	transition: all 0.2s ease;
+
+	font-size: 85px;
+	padding: 20px 0 0 0;
 }
 
 /* Remove right margins from operator keys */
@@ -95,18 +96,24 @@ html {
 .keys span.operator {
 	background: #FFF0F5;
 	margin-right: 0;
+	font-size: 85px;
+	padding: 20px 0 0 0;
 }
 
 .keys span.eval {
 	background: #f1ff92;
 	box-shadow: 0px 4px #9da853;
 	color: #888e5f;
+	font-size: 85px;
+	padding: 20px 0 0 0;
 }
 
 .top span.clear {
 	background: #ff9fa8;
 	box-shadow: 0px 4px #ff7c87;
 	color: white;
+	font-size: 85px;
+	padding: 20px 0 0 0;
 }
 
 /* Some hover effects */
@@ -114,6 +121,8 @@ html {
 	background: #9c89f6;
 	box-shadow: 0px 4px #6b54d3;
 	color: white;
+	font-size: 85px;
+	padding: 20px 0 0 0;
 }
 
 .keys span.eval:hover {
